@@ -1,0 +1,16 @@
+nav {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.4rem;
+	background-color: $primaryColor;
+	padding: 2rem;
+	width: 100%;
+	a {
+		color: $navColor;
+		text-decoration: none;;
+	}
+	ul {
+		display: flex;
+		justify-content: space-evenly;
+	}
+}

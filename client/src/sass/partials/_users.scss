@@ -1,0 +1,26 @@
+.users {
+	form {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 2rem;
+    }
+    ul {
+        font-size: 1.4rem;
+        border-top: 1px solid #ccc;
+        padding-top: 1rem;
+        li {
+            border-bottom: 1px solid #ccc;
+            padding: 1rem 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .controls {
+                display: flex;
+                justify-content: space-between;
+                button {
+                    margin: 0 .5rem;
+                }
+            }
+        }
+    }
+}
